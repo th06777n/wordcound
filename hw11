@@ -1,0 +1,7 @@
+As the number of entities increases to millions in todays BIG data projects, traditional relational database performance will be degraded while finding entity relationships
+For example:
+Finding relationships between two friends results in a simple join SQL query. 
+If you have to find a relationship with a friend of a friend, six levels deep, you have to join the tables six times in a SQL query which leads to poor performance. 
+Graph processing finds relationships without performance degradation as the size of the graph grows:
+In relational databases, relationships are established only by joining tables. 
+In graph databases, relationships are first-class citizens.
